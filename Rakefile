@@ -12,14 +12,12 @@ task :api_test, :brand_environment, :tags do |_, args|
     if tags 
       task.cucumber_opts = [
         '--profile report_allure',
-        '--profile report_json',
         "--profile #{brand_environment}",
         "--tags #{tags}"
       ]
     else
       task.cucumber_opts = [
         '--profile report_allure',
-        '--profile report_json',
         "--profile #{brand_environment}"
       ]
     end

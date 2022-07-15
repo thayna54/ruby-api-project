@@ -1,10 +1,5 @@
 # Reports
 report_allure: --format pretty --format AllureCucumber::CucumberFormatter --out reports/allure-results
-report_json: --format pretty --format json --out reports/json/report.json
 # Environments
 prod: URI='http://agapito-server.herokuapp.com'
       ENVIROMENT='prod'
-uat: URI='http://agapito-server.herokuapp.com'
-      ENVIROMENT='uat'
-des: URI='http://agapito-server.herokuapp.com'
-      ENVIROMENT='des'

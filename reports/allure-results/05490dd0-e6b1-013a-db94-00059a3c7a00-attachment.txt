@@ -1,0 +1,1 @@
+{"id":14936,"login":"nometeste","full_name":"Nome Teste","email":"nometeste@gmail.com","age":28,"created_at":"2022-07-15T21:14:21.903Z","updated_at":"2022-07-15T21:14:21.903Z"}
