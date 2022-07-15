@@ -1,0 +1,12 @@
+source 'http://rubygems.org'
+
+gem 'allure-cucumber'
+gem 'cucumber'
+gem 'factory_bot'
+gem 'faker'
+gem 'httparty'
+gem 'rspec'
+gem 'rubocop'
+gem 'json-schema'
+gem 'i18n'
+gem 'rake'
